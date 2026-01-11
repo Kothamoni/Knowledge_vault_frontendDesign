@@ -1,0 +1,207 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Inter,sans-serif;
+}
+
+body{
+overflow-x:hidden;
+}
+
+.navbar{
+max-width:1600px;
+height:92px;
+margin:0 auto;
+padding:0 120px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.menu ul{
+display:flex;
+gap:32px;
+list-style:none;
+}
+
+.menu a{
+text-decoration:none;
+color:#000;
+font-weight:500;
+}
+
+.early-access-button button{
+width:132px;
+height:39px;
+background:#30B868;
+color:#fff;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+
+#hero-section{
+background:url("../assets/hero-bg.png") center/cover no-repeat;
+height:674px;
+}
+
+.hero-content{
+max-width:1360px;
+margin:0 auto;
+padding:120px;
+text-align:center;
+}
+
+.early{
+display:inline-flex;
+align-items:center;
+gap:8px;
+background:#fff;
+border-radius:1000px;
+padding:6px 14px;
+margin-bottom:32px;
+}
+
+.early span{
+width:16px;
+height:16px;
+background:#30B868;
+border-radius:50%;
+}
+
+.early p{
+color:#30B868;
+font-weight:500;
+}
+
+.inside-heading h1{
+font-size:48px;
+color:#fff;
+}
+
+.inside-heading span{
+color:#30B868;
+}
+
+.inside-para{
+margin-top:16px;
+color:#fff;
+font-size:18px;
+}
+
+.hero-buttons{
+margin-top:32px;
+display:flex;
+justify-content:center;
+gap:16px;
+}
+
+.vaultbutton{
+background:#30B868;
+color:#fff;
+border:none;
+padding:14px 24px;
+border-radius:4px;
+cursor:pointer;
+}
+
+.workbutton{
+background:transparent;
+border:1px solid #fff;
+color:#fff;
+padding:14px 24px;
+border-radius:4px;
+cursor:pointer;
+}
+
+#note-banner{
+max-width:1600px;
+margin:120px auto;
+padding:0 120px;
+text-align:center;
+}
+
+.note-card{
+display:flex;
+gap:32px;
+margin-top:48px;
+}
+
+.card{
+background:#fff;
+box-shadow:0 4px 16px rgba(0,0,0,.08);
+padding:32px;
+border-radius:8px;
+}
+
+.card img{
+width:60px;
+height:60px;
+background:#F95555;
+border-radius:50%;
+padding:14px;
+margin-bottom:16px;
+}
+
+#knowledge-vault{
+max-width:1600px;
+margin:0 auto;
+padding:120px;
+}
+
+.knowledge-container{
+display:flex;
+gap:60px;
+align-items:center;
+}
+
+.knowledge-vault-content h3{
+color:#30B868;
+}
+
+.checklist p{
+display:flex;
+align-items:center;
+gap:8px;
+margin-top:12px;
+}
+
+#challenge{
+background:#F7F6F2;
+padding:120px;
+text-align:center;
+}
+
+#challenge button{
+margin-top:24px;
+padding:14px 32px;
+background:#30B868;
+color:#fff;
+border:none;
+border-radius:4px;
+}
+
+#footer{
+background:#001931;
+color:#fff;
+}
+
+.social-links{
+max-width:1360px;
+margin:0 auto;
+padding:120px;
+display:flex;
+justify-content:space-between;
+}
+
+.icons a{
+color:#fff;
+margin-right:12px;
+}
+
+.copyright{
+text-align:center;
+padding:24px;
+color:#FAFAFA;
+}

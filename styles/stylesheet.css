@@ -1,37 +1,391 @@
-nav{
-    background-color: white;
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box;
+   font-family:'Inter';
+   
 }
-.nav-container{
-   display :flex;
-   justify-content: space-around   ;
-}
-.menu{
-    width:365px;
-    line-height: 24px;
-     gap:32px;
-}
-.menu ul{
-    list-style-type: none;
+
+.navbar{
+    display:flex;
+    max-width:1600px;
+    margin: 0 auto;
+    max-height:92px;
+    justify-content:space-between;
+    align-items:center;
+   
     
 }
-.menu ul li{
-        text-decoration: none;
-        display:inline;
-       
+.navbar .logo,.navbar .menu,.early-access-button{
+    margin:0;
+    padding:0;
 }
-.menu ul li a{
+.navbar .logo{
+    padding:21.41px 1341.05px 16.48px 120.06px;
+   }
+.navbar .menu{
+    
+    max-width:365px;
+    max-height:24px;
+    margin: 0 auto;
+    
+
+}
+.navbar .menu ul{
+    list-style: none;
+    display:flex;
+    gap:31.9px;
+    
+
+}
+.navbar .menu ul li a{
+     justify-content: space-between;
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+    font-weight: 500;
+    /*margin-right: 31.9px;*/
+}
+
+.early-access-button button{
+    background-color: #30B868;
+    border-radius: 4px;
+    color: white;
+    margin:24.48px  120.1px 29.31px 1316.09px;
+    max-width:132px;
+    max-height:39px;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
-    color:#000000;
+    border:none;
+}
+
+ #hero-section {
+   background-image: url('../assets/hero-bg.png');
+   background-size:cover;
+    background-position:center;
     
+   
+}
+#hero-section .hero-content {
+max-width:1360px;
+   max-height:674px;
+    margin:0 auto;
+   
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+
+padding:115.98px 120.72px 179.98px 120.46px;
+ 
+   
+}
+ #hero-section .hero-content .early{
+
+    display:flex;
+    align-items:center;
+    gap:8px;
+    
+   
+    padding:6px 14px;
+    margin-bottom:32px;
+
+   background-color: white;
+    border-radius: 1000px;
+    margin:auto 0;
+    width: 229px;
+    height: 35px; 
+   
+    
+    
+}
+.hero-content .early p{
+    font-size: 16px;
+    color: #30B868;
+    font-weight: 500;
+    text-align: center;
+    padding:8.05px 12.03px 8.14px 34.03px;
+}
+.hero-content .early span{
+    max-width:16px;
+    max-height:16px;
+    margin: 10.31 px 201.04px 9.55px 12.04px;
+    color: #30B868;
+    border-radius:50%;
+    position:relative;
+  display:inline-block;
+  vertical-align:middle;
+  }
+
+
+
+.hero-content .inside-heading{
+    
+    max-width: 770px;
+    max-height: 168px;
+    align-items: center;
+    padding:52.19px 295.3px 77.19px 295.2px;
+    padding:0;
+    
+    
+}
+.hero-content .inside-heading h1{
+    font-size: 48px;
+    font-weight: 700;
+    color:white;
+   
+}
+.hero-content .inside-heading span{
+   font-size: 48px;
+    font-weight: 700;
+    color:#30B868;
+}
+
+.hero-content .inside-para {
+    max-width: 1360px;
+    max-height:60px;
+    margin:0px auto;
+    text-align: center;
+align-items: center;
+ 
+}
+.hero-content .inside-para p{
+        font-size: 18px;
+        line-height: 24px;
+        color:white;
+        
+        margin:0px auto;
+       
+
+    }
+#hero-section .hero-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    
+    max-width:465px;
+    max-height:52px;
+
+}
+
+ #hero-section .hero-buttons .vaultbutton{
+    max-width:251px; max-height:52px;
+    background-color: #30B868;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+ #hero-section .hero-buttons .workbutton{
+    max-width:198px; max-height:52px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+#note-banner{
+   
+    max-width:1600px;
+    max-height: 448px;
+
+}
+#note-banner .banner-heading{
+
+    padding: 0.48px 121.19px 296.48px 120px;
+    max-width:1360px;
+    max-height:152px;
+    margin:0px auto;
+    text-align: center;
+}
+#note-banner .banner-heading h2{
+    font-size: 48px;
+    font-weight: 800;
+    color:#001931;
+}
+#note-banner .banner-heading p{
+    padding:0;
+    margin-bottom:48px;
+    margin-top: 10.52px;
+    font-size: 16px;
+    line-height: 20px;
+    color:#627382;
+    margin:0px auto;
+    text-align: center;
+    
+   
+}
+
+#note-banner .note-card{
+    display: flex;
+    padding: 0.48px 121.19px 296.48px 120px;
+   max-width:1360px;
+    max-height:300px;
+    margin:0px auto;
+    margin-top: 38.52px;
+    text-align: center;
+}
+.note-card .card{
+    gap:22.79px;
+    margin: 0 auto;
+    max-width: 322px;
+    max-height:300px;
+    margin-right: 32px;
+    box-shadow: #62738233 0px 4px 16px 0px;
+   
+}
+.note-card .card img{
+    background-color: #F95555;
+    margin:70.03px 131.69px 171.03px 131.28px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50% ;
+    padding:14.1px  13.96px14.02px 14.15px;
 }
 
 
-.nav-container button{
-    margin:24px 120px 24px 630px;
-    color:white;
+#knowledge-vault{
+    padding-top: 120px;
+    max-width:1600px;
+    max-height: 840px;
+    display: flex;
+    gap:60px;
+
+
+}
+
+
+.knowledge-container{
+   gap:60px;
+    align-items:center;
+padding: 120.48px 120.48px;
+display: flex;
+max-width:1360px;
+max-height:600px;
+}
+
+#knowledge-vault .knowledge-vault-content{
+padding: 106.18px 0.4px 108.84px 660.42;
+max-width:700px;
+max-height:387.65px;
+}
+ .knowledge-vault-content h3{
+   color:#30B868;
+   font-size: 16px;font-weight: 500;
+   line-height: 20px;
+   margin-bottom:12px;
+
+   
+}
+.knowledge-vault-content h1{
+    margin-top:13.18px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: auto;
+    color:#001931;
+}
+.knowledge-vault-content p{
+     margin-top:13.18px;
+    font-size: 16px;
+    
+    line-height: 20px;
+    color:#627382;
+}
+
+#knowledge-vault .knowledge-container .knowledge-vault-image{
+
+    margin:0px auto;
+    
+}
+.checklist{
+    margin-top: 37.18px;
+}
+#challenge{
+    padding:120px 0;
+}
+
+.challenge1{
+    max-width:1360px;
+    max-height:384px;
+    margin:0 auto;
+    text-align:center;
+    background-color:#F7F6F2;
+    padding: 40px 80px;
+    gap:16px;
+}
+
+.challenge1 .headingpart{
+    gap:24px;
+}
+.buttonpart{
+    max-width:1280px;
+    max-height:88px;
+}
+.challenge1 .buttonpart button{
     background-color: #30B868;
-    width:164px;
-    line-height: 44px;
     border-radius: 4px;
+    padding:12px 16px;
+    color:white;
+}
+.challenge1.buttonpart ul{
+
+   display:flex;
+    gap:24px;
+    justify-content:center;
+    list-style:disc;
+    padding-left:20px;
+}
+
+
+
+#footer{
+    max-width:1600px; max-height:348px;
+    background-color: #001931;
+
+}
+
+#footer .social-links{
+   
+    gap:200px;
+    max-width:1360px;
+    max-height:64px;
+    margin:0 auto;
+    padding-top: 120.48px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+
+}
+
+
+
+#footer .social-links .icons{
+
+gap: 16px;
+max-width:220px;max-height:64px;
+margin: 0 auto;
+
+}
+#footer .social-links .icons h3{
+    color:white;
+    font-size: 20px;
+    font-weight: 300;
+    
+
+}
+.copyright{
+    max-width:1360px;max-height:54px;
+    margin:264.48px  120.12px 30.48px  121.06px;
+    margin: 0 auto;
+    text-align:center;
+    padding:24px 0;
+}
+.copyright h4{
+    color:#FAFAFA;
+    line-height: 24px;
+    font-size: 16px;
+
 }
